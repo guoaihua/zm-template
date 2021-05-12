@@ -1,0 +1,9 @@
+# local file
+node_modules/
+.history/
+
+# editor
+
+# build dir
+dist/
+
