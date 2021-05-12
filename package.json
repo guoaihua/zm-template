@@ -1,14 +1,14 @@
 {
-  "name": "webpack-template",
+  "name": "<%= porjectName %>",
   "version": "1.0.0",
-  "description": "",
+  "description": "<%= description %>",
   "main": "index.js",
   "scripts": {
     "dev": "webpack serve --config ./config/webpack.dev.js",
     "build": "webpack  --config ./config/webpack.prod.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "<%= author %>",
   "license": "ISC",
   "devDependencies": {
     "replace-in-file-webpack-plugin": "^1.0.6",
