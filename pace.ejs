@@ -1,22 +1,18 @@
 {
-  "name": "111",
+  "name": "<%= projectName %>",
   "version": "1.0.0",
-  "description": "21adad",
+  "description": "<%= description %>",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack serve --config ./config/webpack.dev.js",
+  //  "dev": "webpack serve --config ./config/webpack.dev.js",
     "build": "webpack  --config ./config/webpack.prod.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "<%= author %>",
   "license": "ISC",
   "devDependencies": {
-    "css-loader": "^5.2.4",
     "html-webpack-plugin": "^5.3.1",
     "replace-in-file-webpack-plugin": "^1.0.6",
-    "sass": "^1.32.13",
-    "sass-loader": "^11.1.0",
-    "style-loader": "^2.0.0",
     "webpack": "^5.37.0",
     "webpack-cli": "^4.7.0",
     "webpack-dev-server": "^3.11.2"
