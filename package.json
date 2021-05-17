@@ -1,14 +1,14 @@
 {
-  "name": "111",
+  "name": "<%= projectName %>",
   "version": "1.0.0",
-  "description": "21adad",
+  "description": "<%= description %>",
   "main": "index.js",
   "scripts": {
     "dev": "webpack serve --config ./config/webpack.dev.js",
     "build": "webpack  --config ./config/webpack.prod.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "<%= author %>",
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^5.2.4",
