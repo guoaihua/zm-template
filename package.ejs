@@ -1,29 +1,22 @@
 {
-  "name": "webpack-template",
+  "name": "<%= projectName %>",
   "version": "1.0.0",
-  "description": "",
+  "description": "<%= description %>",
   "main": "index.js",
   "scripts": {
     "dev": "webpack serve --config ./config/webpack.dev.js",
     "build": "webpack  --config ./config/webpack.prod.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "<%= author %>",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.14.3",
-    "babel-loader": "^8.2.2",
-    "cache-loader": "^4.1.0",
     "css-loader": "^5.2.4",
-    "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.3.1",
-    "mini-css-extract-plugin": "^1.6.0",
     "replace-in-file-webpack-plugin": "^1.0.6",
     "sass": "^1.32.13",
     "sass-loader": "^11.1.0",
-    "speed-measure-webpack-plugin": "^1.5.0",
     "style-loader": "^2.0.0",
-    "thread-loader": "^3.0.4",
     "webpack": "^5.37.0",
     "webpack-cli": "^4.7.0",
     "webpack-dev-server": "^3.11.2"
